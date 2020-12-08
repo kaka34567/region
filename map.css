@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+#top-contents {
+	background: url(../images/region_top.jpg) no-repeat center bottom / 100%;
+	padding-bottom: 150px;	
+}
+
+//横のメニュー
+#menu-text {
+	position: relative;z-index: 1;
+	padding: 0 3% 30px;	
+	font-size: 24px;	
+	width: 80%;			
+}
+
+
+//地図全体を囲むブロック
+#map {
+	position: relative;
+	font-size: 12px;
+	height: 800px;		
+	width: 100%;		
+	margin-top: -400px;	
+  margin-top: -400px;
+	display: none;	
+}
+#map a {
+	display: block;text-decoration: none;position: absolute;text-align: center;
+	width: 8%;
+	height: 7%;
+	color: #000;	
+	box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+
+//中国ブロック
+.cyugoku a {background: #f4c7c3;}
+
+.yamaguchi {left: 19%;bottom: 30%;height: 15% !important;}
+.hiroshima {left: 27%;bottom: 30%;}
+.okayama {left: 35%;bottom: 30%;}
+.shimane {left: 27%;bottom: 38%;}
+.tottori {left: 35%;bottom: 38%;}
+
+/*ブロック全体*/
+#menu-text {
+	font-size: 16px;
+}
+/*１個あたり*/
+#menu-text li {
+	background: url(../images/arrow1.png) no-repeat left 8px / 15px;
+	padding-left: 20px;
+}
+
+}
+
+#top-contents {
+	padding-bottom: 30px;
+}
+
+#menu-text {
+	width: auto;
+	display: none;	
+}
+
+}
